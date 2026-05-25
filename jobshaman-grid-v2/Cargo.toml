@@ -1,0 +1,25 @@
+[package]
+name = "jobshaman-grid-v2"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.28"
+egui = "0.28"
+sysinfo = "0.30"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+directories = "5"
+ron = "0.8"
+notify = "6.1"           # inotify watcher
+walkdir = "2"            # prohledávání vaultu
+# Llama.cpp binding - volitelný (feature)
+llama-cpp-rs = { version = "0.1", optional = true }
+ollama-rs = "0.2"        # stále použito jako fallback
+
+[features]
+default = ["ollama"]
+ollama = []
+llama = ["dep:llama-cpp-rs"]

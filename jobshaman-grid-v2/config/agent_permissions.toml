@@ -1,0 +1,14 @@
+[agent]
+enabled = true
+backend = "ollama"       # "ollama" nebo "llama"
+model = "qwen2.5:3b"     # pro Ollama; pro llama cesta k GGUF
+
+[permissions]
+access_web = false
+access_user_files = true      # aby agent četl poznámky
+execute_commands = false
+modify_grid = true
+
+[watcher]
+vault_path = "/home/shami/Documents/Obsidian"   # uprav podle sebe
+enable_watcher = true

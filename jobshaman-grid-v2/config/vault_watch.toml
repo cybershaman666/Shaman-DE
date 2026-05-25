@@ -1,0 +1,2 @@
+watched_extensions = ["md", "markdown"]
+index_on_start = true
