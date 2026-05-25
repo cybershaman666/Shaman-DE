@@ -1,5 +1,7 @@
 # 🧙 Shaman DE
 
+<img width="1536" height="1024" alt="ShamanDE-mockup" src="https://github.com/user-attachments/assets/3878f02f-9e5a-4e2e-87ea-cd807d8f3766" />
+
 **Agentic Desktop Environment**  
 No windows, no workspaces. Just a grid of activities controlled by a local AI.
 
