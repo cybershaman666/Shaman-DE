@@ -1,13 +1,11 @@
-# 🧙 JobShaman Grid
+# 🧙 Shaman DE
 
 **Agentic Desktop Environment**  
 No windows, no workspaces. Just a grid of activities controlled by a local AI.
 
-![JobShaman Grid Demo](https://via.placeholder.com/800x400?text=Bento+Grid+with+AI+Agent)
-
 ## ✨ Vision
 
-JobShaman rethinks how we interact with a PC. Instead of overlapping windows and virtual desktops, you get a **bento‑box grid** – resizable, draggable tiles that snap to an organic layout. Every tile can host a terminal, a system monitor, a web view, your notes, or any custom widget.
+Shaman rethinks how we interact with a PC. Instead of overlapping windows and virtual desktops, you get a **bento‑box grid** – resizable, draggable tiles that snap to an organic layout. Every tile can host a terminal, a system monitor, a web view, your notes, or any custom widget.
 
 And when you don’t want to click or type commands, just **talk to the built‑in AI agent**. Say:
 
@@ -29,7 +27,7 @@ The agent runs **locally** (via Ollama or llama.cpp) – no cloud, no privacy le
 
 ### Dependencies
 
-- Linux (Wayland/X11) – developed on Arch + Hyprland, but works on any desktop.
+- Linux (Wayland) – developed on Arch + Hyprland, but works on any desktop.
 - [Ollama](https://ollama.com/) (optional) – for the AI backend.
 - `libinotify` – usually preinstalled on Linux.
 - Rust toolchain – install via [rustup](https://rustup.rs/).
